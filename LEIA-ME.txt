@@ -1,20 +1,29 @@
-LEVE EM FRENTE — ARQUIVOS DO SITE
+LEVE EM FRENTE — VERSÃO ATUALIZADA
 
-Arquivos:
-- index.html: página principal.
-- sobre.html: apresentação do site.
-- privacidade.html: modelo inicial de política de privacidade.
-- contato.html: página de contato (falta inserir um e-mail válido).
+O QUE ESTÁ INCLUÍDO
+- index.html: página inicial com navegação e links para os guias.
+- artigos.html: índice de artigos.
+- emagrecer-com-saude.html
+- prato-saudavel.html
+- caminhada-comecar.html
+- reduzir-acucar.html
+- habitos-saudaveis.html
+- sobre.html: propósito e critérios editoriais.
+- privacidade.html: política inicial sobre hospedagem, e-mail, cookies e publicidade futura.
+- contato.html: página de contato.
+- estilo.css: estilos das páginas internas.
+- robots.txt e sitemap.xml.
 
-ANTES DE PUBLICAR:
-1. Insira um e-mail real na página contato.html.
-2. Revise a política de privacidade para refletir os serviços e dados realmente usados.
-3. Publique todos os arquivos na raiz da hospedagem.
-4. Cadastre o endereço público no Google AdSense.
-5. Use somente o código e o ID de editor fornecidos pela sua própria conta AdSense.
-6. Atualize os espaços reservados de publicidade em index.html com os blocos de anúncio oficiais após aprovação.
+ANTES DE ENVIAR AO GITHUB
+1. A página de contato já está configurada com johnnybeibe@gmail.com. Confirme que esse endereço está correto e que você consegue receber mensagens nele.
+2. Revise a política de privacidade para refletir os serviços que realmente ativar.
+3. Envie TODOS os arquivos e páginas para a raiz do repositório (não coloque dentro de outra pasta).
+4. Aguarde o GitHub Pages atualizar e teste os links no site publicado.
+5. Confira as referências e revise o conteúdo. Os artigos são educativos e não foram revisados por médico ou nutricionista. Não apresente o site como serviço clínico.
+6. Só depois de ter conteúdo suficiente e páginas revisadas, solicite análise do Google AdSense.
 
-IMPORTANTE:
-Os espaços visuais de publicidade ainda não exibem anúncios e não geram receita.
-Não use IDs de exemplo nem clique nos próprios anúncios.
-A aprovação e a ativação são decisões do Google.
+ANÚNCIOS
+Os espaços de publicidade na página inicial continuam sendo apenas marcadores visuais. Eles não exibem anúncios nem geram receita. Após aprovação, use somente o código e os identificadores oficiais fornecidos pela sua conta AdSense. Nunca clique nos próprios anúncios nem peça que outras pessoas cliquem.
+
+IMPORTANTE
+Este pacote melhora a estrutura, mas não garante aprovação no AdSense. O Google avalia o site e a conta segundo as políticas vigentes. Conteúdo de saúde exige precisão, transparência e cuidado.
