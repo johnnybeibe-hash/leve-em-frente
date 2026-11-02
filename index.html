@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Dicas fáceis para cuidar da alimentação, se movimentar e emagrecer com saúde.">
+  <title>Leve em Frente | Dicas para emagrecer com saúde</title>
+  <style>
+    :root{--verde:#176b52;--claro:#eaf5ef;--texto:#20332d;--cinza:#5d6d66;--laranja:#f3a65a}
+    *{box-sizing:border-box}
+    body{margin:0;font-family:Arial,Helvetica,sans-serif;color:var(--texto);line-height:1.65;background:#fbfdfb}
+    header{background:linear-gradient(120deg,#eaf5ef,#f8f4e9);padding:24px 7% 60px}
+    nav{max-width:1050px;margin:auto;display:flex;justify-content:space-between;align-items:center;gap:16px;flex-wrap:wrap}
+    .marca{font-size:1.2rem;font-weight:800;color:var(--verde)}
+    nav a{color:var(--texto);text-decoration:none;margin-left:14px}
+    .inicio{max-width:1050px;margin:58px auto 0;display:grid;grid-template-columns:1.2fr .8fr;gap:35px;align-items:center}
+    h1{font-size:clamp(2.2rem,5vw,4rem);line-height:1.1;margin:0 0 18px}
+    h1 span{color:var(--verde)}
+    .chamada{font-size:1.15rem;color:var(--cinza)}
+    .botao{display:inline-block;background:var(--verde);color:white;text-decoration:none;padding:13px 22px;border-radius:30px;font-weight:bold;margin-top:12px}
+    .destaque{background:white;padding:25px;border-radius:22px;box-shadow:0 12px 35px #1c59431a}
+    .destaque .emoji{font-size:3rem}
+    main{max-width:1050px;margin:auto;padding:48px 7%}
+    section{margin-bottom:55px;scroll-margin-top:20px}
+    .pequeno{color:var(--verde);font-weight:bold;text-transform:uppercase;letter-spacing:1px;font-size:.8rem}
+    h2{font-size:2rem;line-height:1.2;margin:8px 0 12px}
+    h3{margin:8px 0}
+    .cinza{color:var(--cinza)}
+    .grade{display:grid;grid-template-columns:repeat(3,1fr);gap:16px;margin-top:22px}
+    .cartao{background:white;border:1px solid #e4eee8;border-radius:18px;padding:20px}
+    .icone{font-size:1.8rem}
+    .refeicoes{display:grid;grid-template-columns:repeat(3,1fr);gap:14px;margin-top:20px}
+    .refeicoes div{background:white;border:1px solid #e4eee8;border-radius:16px;padding:18px}
+    .aviso{background:#fff4e7;border-left:5px solid var(--laranja);padding:18px 20px;border-radius:12px}
+    .passos{display:grid;gap:12px;margin-top:20px}
+    .passo{background:var(--claro);padding:16px 18px;border-radius:13px}
+    .passo strong{color:var(--verde)}
+    footer{background:#173f33;color:#eaf5ef;text-align:center;padding:30px 7%}
+    footer p{max-width:850px;margin:8px auto;color:#d2e4dc;font-size:.9rem}
+
+    .espaco-anuncio{width:100%;max-width:970px;min-height:110px;margin:28px auto;padding:12px 16px;border:1px dashed #c9d8d0;border-radius:12px;background:#f7faf8;display:flex;flex-direction:column;align-items:center;justify-content:center;text-align:center;color:#7a8982}
+    .espaco-anuncio small{font-size:.72rem;text-transform:uppercase;letter-spacing:1px}
+    .espaco-anuncio span{font-size:.85rem}
+    .espaco-anuncio.lateral{max-width:300px;min-height:250px;margin:22px auto}
+    .espaco-anuncio.faixa{min-height:90px}
+    @media(max-width:720px){.inicio{grid-template-columns:1fr;margin-top:38px}.grade,.refeicoes{grid-template-columns:1fr}nav{align-items:flex-start}nav a{margin:0 10px 0 0}main{padding-top:38px}}
+  </style>
+</head>
+<!--
+  ESPAÇOS PARA GOOGLE ADSENSE:
+  Os blocos com classe "espaco-anuncio" reservam espaço e mostram um rótulo de publicidade.
+  Para exibir anúncios reais, é necessário ter uma conta aprovada no Google AdSense
+  e inserir o código oficial fornecido pelo Google em cada espaço (ou usar os anúncios automáticos).
+  Não clique nos próprios anúncios nem peça que visitantes cliquem neles.
+-->
+<body>
+<header>
+  <nav>
+    <div class="marca">🌿 LEVE EM FRENTE</div>
+    <div><a href="#comecar">Por onde começar</a><a href="#comida">Alimentação</a><a href="#exercicios">Exercícios</a></div>
+  </nav>
+  <div class="inicio">
+    <div>
+      <div class="pequeno">Dicas simples para o dia a dia</div>
+      <h1>Cuide de você, <span>um passo de cada vez.</span></h1>
+      <p class="chamada">Quer emagrecer e ter mais saúde? Aqui você encontra dicas fáceis sobre comida, exercícios e bons hábitos. Sem passar fome e sem promessas milagrosas.</p>
+      <a class="botao" href="#comecar">Começar agora</a>
+    </div>
+    <div class="destaque">
+      <div class="emoji">🥗</div>
+      <h3>Não precisa ter pressa</h3>
+      <p class="cinza">Cada pessoa tem seu ritmo. Emagrecer com saúde leva tempo. O mais importante é criar hábitos que você consiga manter.</p>
+    </div>
+  </div>
+</header>
+<div class="espaco-anuncio faixa" id="anuncio-topo" aria-label="Espaço reservado para anúncio"><small>Publicidade</small><span>Espaço reservado para anúncio do Google</span></div>
+<main>
+  <section id="comecar">
+    <div class="pequeno">Métodos que têm base científica</div>
+    <h2>O que realmente ajuda a perder peso?</h2>
+    <p class="cinza">Não existe uma dieta única que funcione para todo mundo. O que costuma ajudar é comer um pouco menos do que o corpo gasta, sem passar fome, e manter hábitos que possam durar.</p>
+    <div class="grade">
+      <article class="cartao"><div class="icone">🍽️</div><h3>Controle as porções</h3><p class="cinza">Sirva uma quantidade que mate sua fome. Se possível, coloque mais verduras e legumes no prato e evite repetir automaticamente.</p></article>
+      <article class="cartao"><div class="icone">🥦</div><h3>Prefira comida de verdade</h3><p class="cinza">Coma mais alimentos simples: arroz, feijão, ovos, frutas, verduras, legumes, carnes e raízes. Diminua aos poucos salgadinhos, biscoitos recheados, embutidos e refrigerantes.</p></article>
+      <article class="cartao"><div class="icone">📝</div><h3>Acompanhe seus hábitos</h3><p class="cinza">Anote por alguns dias o que come, bebe e quanto se movimenta. Isso ajuda a perceber hábitos que podem ser ajustados, sem culpa.</p></article>
+    </div>
+  </section>
+
+  <section id="comida">
+    <div class="pequeno">Um jeito prático de montar o prato</div>
+    <h2>Coma bem sem fazer dieta complicada</h2>
+    <p class="cinza">Use este exemplo como ponto de partida. As quantidades mudam conforme o tamanho do corpo, a fome, a atividade e a saúde de cada pessoa.</p>
+    <div class="refeicoes">
+      <div><strong>🥗 Metade do prato</strong><p class="cinza">Verduras e legumes, crus ou cozidos. Varie as cores e escolha os que cabem no seu bolso.</p></div>
+      <div><strong>🍚 Uma parte do prato</strong><p class="cinza">Arroz, batata, mandioca, milho, macarrão ou outro alimento que dá energia. Não precisa cortar carboidratos.</p></div>
+      <div><strong>🥚 Outra parte do prato</strong><p class="cinza">Feijão, lentilha, ovos, frango, peixe ou outra fonte de proteína. Arroz com feijão pode fazer parte de uma alimentação saudável.</p></div>
+    </div>
+    <div class="grade">
+      <article class="cartao"><h3>🥣 Café da manhã</h3><p class="cinza">Exemplo: pão com ovo e uma fruta; ou iogurte natural com aveia e fruta.</p></article>
+      <article class="cartao"><h3>🍛 Almoço</h3><p class="cinza">Exemplo: arroz, feijão, frango ou ovo e salada ou legumes.</p></article>
+      <article class="cartao"><h3>🍲 Jantar</h3><p class="cinza">Pode ser parecido com o almoço. Uma sopa com legumes, feijão e proteína também pode ser uma opção.</p></article>
+    </div>
+    <div class="aviso" style="margin-top:18px"><strong>Pequenas trocas que ajudam:</strong> prefira água no lugar de refrigerante na maior parte dos dias; coma fruta em vez de suco; planeje lanches simples; e reduza frituras e alimentos muito industrializados sem precisar proibir tudo.</div>
+  </section>
+
+  <div class="espaco-anuncio" id="anuncio-meio" aria-label="Espaço reservado para anúncio"><small>Publicidade</small><span>Espaço reservado para anúncio do Google</span></div>
+
+  <section id="exercicios">
+    <div class="pequeno">Movimente-se e descanse</div>
+    <h2>Cuide do seu corpo</h2>
+    <div class="grade">
+      <article class="cartao"><div class="icone">👟</div><h3>Faça uma caminhada</h3><p class="cinza">Comece com pouco tempo e aumente aos poucos, se estiver se sentindo bem.</p></article>
+      <article class="cartao"><div class="icone">🛌</div><h3>Durma bem</h3><p class="cinza">Tente dormir e acordar em horários parecidos. O descanso também faz parte da saúde.</p></article>
+      <article class="cartao"><div class="icone">❤️</div><h3>Respeite seu corpo</h3><p class="cinza">Não force além do seu limite. Se sentir dor, tontura ou falta de ar diferente do normal, pare e procure orientação.</p></article>
+    </div>
+  </section>
+
+  <section>
+    <div class="pequeno">Um plano fácil</div>
+    <h2>5 passos para esta semana</h2>
+    <div class="passos">
+      <div class="passo"><strong>1. Beba água:</strong> deixe água por perto durante o dia.</div>
+      <div class="passo"><strong>2. Coma uma fruta:</strong> escolha uma fruta de que você goste.</div>
+      <div class="passo"><strong>3. Caminhe um pouco:</strong> faça uma caminhada leve, se puder.</div>
+      <div class="passo"><strong>4. Monte um prato variado:</strong> tente incluir arroz, feijão, verduras e uma proteína.</div>
+      <div class="passo"><strong>5. Continue:</strong> se um dia não der certo, recomece no dia seguinte. Não desista por causa de um deslize.</div>
+    </div>
+  </section>
+
+  <div class="espaco-anuncio faixa" id="anuncio-final" aria-label="Espaço reservado para anúncio"><small>Publicidade</small><span>Espaço reservado para anúncio do Google</span></div>
+
+  <section>
+    <div class="aviso">
+      <h2 style="font-size:1.45rem;margin-top:0">Atenção com sua saúde</h2>
+      <p>Não acredite em promessas de emagrecer muitos quilos em poucos dias. Evite dietas muito restritas, remédios para emagrecer sem receita e métodos que fazem mal. Se você tem algum problema de saúde, usa remédios, está grávida ou ainda é adolescente, converse com um profissional de saúde antes de tentar emagrecer.</p>
+      <p>Um médico ou nutricionista pode ajudar a encontrar um caminho seguro para você.</p>
+    </div>
+  </section>
+</main>
+<footer>
+  <strong>LEVE EM FRENTE — pequenas mudanças fazem diferença.</strong>
+  <p><a href="sobre.html" style="color:#eaf5ef">Sobre</a> · <a href="privacidade.html" style="color:#eaf5ef">Privacidade</a> · <a href="contato.html" style="color:#eaf5ef">Contato</a></p>
+  <p>Este site traz informações gerais e não substitui uma consulta com médico ou nutricionista. Não existe resultado igual para todo mundo. Cuide da sua saúde e respeite seu tempo.</p>
+</footer>
+</body>
+</html>

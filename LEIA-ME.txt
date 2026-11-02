@@ -1,0 +1,20 @@
+LEVE EM FRENTE — ARQUIVOS DO SITE
+
+Arquivos:
+- index.html: página principal.
+- sobre.html: apresentação do site.
+- privacidade.html: modelo inicial de política de privacidade.
+- contato.html: página de contato (falta inserir um e-mail válido).
+
+ANTES DE PUBLICAR:
+1. Insira um e-mail real na página contato.html.
+2. Revise a política de privacidade para refletir os serviços e dados realmente usados.
+3. Publique todos os arquivos na raiz da hospedagem.
+4. Cadastre o endereço público no Google AdSense.
+5. Use somente o código e o ID de editor fornecidos pela sua própria conta AdSense.
+6. Atualize os espaços reservados de publicidade em index.html com os blocos de anúncio oficiais após aprovação.
+
+IMPORTANTE:
+Os espaços visuais de publicidade ainda não exibem anúncios e não geram receita.
+Não use IDs de exemplo nem clique nos próprios anúncios.
+A aprovação e a ativação são decisões do Google.
